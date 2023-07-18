@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "homepage": "https://punit1566.github.io/To-do-list/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
