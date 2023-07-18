@@ -1,9 +1,9 @@
 {
+  "homepage": "https://punit1566.github.io/",
   "name": "To-do-list",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "homepage": "https://punit1566.github.io/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
