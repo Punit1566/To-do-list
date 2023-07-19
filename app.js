@@ -1,5 +1,6 @@
 const express = require ("express");
 const bodyParser = require("body-parser");
+const path = require("path");
 const date = require(__dirname+"/date.js");
 const app = express();
 
@@ -7,7 +8,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended:true}));
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname , "public")));
 
 const port=3000;
 const items = [];
