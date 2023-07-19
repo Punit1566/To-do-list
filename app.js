@@ -8,7 +8,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended:true}));
-app.use(express.static(path.join(__dirname , "public")));
+app.use(express.static(path.join(__dirname , "Public")));
 
 const port=3000;
 const items = [];
